@@ -20,10 +20,18 @@ import {
   tesla,
   shopify,
   carrent,
-  jobit,
+  // jobit,
+  jlistings,
+  vintech,
+  solgrain,
+  // microbridgelogo,
+  solgrainltd,
+  vil,
   tripguide,
   threejs,
 } from "../assets";
+
+// import microbridgelogo from "../assets/microbridge.jpeg";
 
 export const navLinks = [
   {
@@ -80,10 +88,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Google Firebase",
+  //   icon: firebase,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -92,10 +100,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "GSAP",
+  //   icon: gsap,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -104,47 +112,50 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Intern",
+    company_name: "Microbridge Technology Solutions",
+    icon: vil,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2021 - October 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "First interaction with web development and technologies such as HTML, CSS and, JavaScript.",
+      "Duplicated existing fronted practice UI and Improved UI across various web projects.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Contributed tremendously to weekly progress/stand-up meetings.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Frontend Developer",
+    company_name: "Atlas Dao",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing top notch functionalities that meet modern day business needs and requirements.",
+      "Optimizing existing codebase to improve speed and accessibility of the website. ",
+      "Adopting best practices for front-end development, including cross-browser compatibility, accessibility, and responsive designs.",
+      "Testing the website's functionality, identifying and resolving any bugs or issues that may arise.",
     ],
   },
   {
     title: "Web Developer",
     company_name: "Shopify",
-    icon: shopify,
+    icon: solgrain,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -156,15 +167,17 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
+    company_name: "JobListings",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "February 2024 - March 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining web applications using Next.js, and TypeScript.",
+      "Developed a user-friendly, accessible, responsive and cross-browser compatible interface.",
+      "Implemented simple and interactive animations to the website utilizing Tailwind CSS.",
+      "Worked closely with the founder to ensure all functionalities and requirements were met.",
+      "Used google firebase to create a seamless backend and store database in real time.",
+      "Tested, identified and debugged issues with the website.",
     ],
   },
 ];
@@ -198,16 +211,15 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Vintechenergies",
+    description: " A Lagos-based provider of solar panels, inverters, and battery storage, delivering reliable off-grid power for homes and businesses.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "GSAP",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +227,53 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: vintech,
+    source_code_link: "https://github.com/Afiniki-Mhya/VIL",
+    View_code_link: "https://www.vintechenergies.com/",
   },
   {
-    name: "Job IT",
+    name: "Job listings",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: jlistings,
+    source_code_link: "https://github.com/Afiniki-Mhya/JobListings",
+    View_code_link: "https://job-listings-5owk.vercel.app/",
+  },
+  {
+    name: "Solgrain Limited",
+    description:
+      "A licensed Nigerian agri-export company connecting local farmers to global markets with premium, ethically sourced commodities.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: solgrainltd,
+    source_code_link: "https://github.com/Afiniki-Mhya/solgrain-limited",
+    View_code_link: "https://www.solgrainlimited.org/",
   },
 ];
 

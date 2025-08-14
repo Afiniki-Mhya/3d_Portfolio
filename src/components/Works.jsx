@@ -5,6 +5,7 @@ import { github } from "../assets";
 import { motion } from "framer-motion";
 import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
+import { View } from 'lucide-react';
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
@@ -14,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  View_code_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -33,14 +35,10 @@ const ProjectCard = ({
           <div className="absolute inset-0 flex gap-2 justify-end m-3 card-img_hover">
             {/* GitHub Link */}
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => window.open(View_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain"
-              />
+             <View />
             </div>
 
             {/* Live URL Link (currently using github icon again) */}
@@ -49,7 +47,7 @@ const ProjectCard = ({
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
+                src={github} 
                 alt="live"
                 className="w-1/2 h-1/2 object-contain"
               />

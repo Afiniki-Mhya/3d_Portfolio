@@ -42,26 +42,28 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-8"
       >
-        I am a software developer with a passion for creating innovative
-        solutions. Javascript is my primary language, and I have experience in
-        building web applications using React, Node.js, and Express. I am also
-        skilled in database management with MongoDB and MySQL. My expertise
-        extends to cloud services like AWS and Azure, where I deploy and manage
-        applications. I am proficient in version control using Git and have a
-        strong understanding of Agile methodologies. I am committed to writing
-        clean, maintainable code and continuously improving my skills. I thrive
-        in collaborative environments and enjoy working with cross-functional
-        teams to deliver high-quality software solutions. My goal is to leverage
-        my technical skills and problem-solving abilities to contribute to
-        impactful projects that drive business success.
+        I create interactive and responsive experiences for individuals and
+        organizations using modern web technology. I am currently into building
+        immersive web animations and also exploring deploying interesting user
+        experiences for. I specialize in{" "}
+        <span className="font-bold italic ">JavaScript</span>,{" "}
+        <span className="font-bold italic ">TypeScript</span>,{" "}
+        <span className="font-bold italic ">React</span>,{" "}
+        <span className="font-bold italic ">Nextjs</span>, and modern tools like
+        <span className="font-bold italic ">Tailwind CSS</span>—and I’m
+        currently diving into{" "}
+        <span className="font-bold italic ">Three.js</span> and{" "}
+        <span className="font-bold italic ">GSAP</span> to bring 3D and advanced
+        animations to my projects. My focus is on blending great design with
+        smooth performance to create interfaces people love using.
       </motion.p>
 
       {/* CARDS */}
-      <div className="mt-20 flex flex-wrap gap-10">
+      {/* <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };
