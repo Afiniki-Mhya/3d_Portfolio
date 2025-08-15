@@ -8,6 +8,8 @@ import {
   html,
   css,
   reactjs,
+  firebase,
+  gsap,
   redux,
   tailwind,
   nodejs,
@@ -17,21 +19,22 @@ import {
   docker,
   meta,
   starbucks,
+  atlasdao,
+  mbridge,
+  solgrainn,
   tesla,
   shopify,
   carrent,
-  // jobit,
   jlistings,
   vintech,
-  solgrain,
-  // microbridgelogo,
+  // solgrain,
   solgrainltd,
   vil,
   tripguide,
   threejs,
 } from "../assets";
 
-// import microbridgelogo from "../assets/microbridge.jpeg";
+
 
 export const navLinks = [
   {
@@ -88,10 +91,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Google Firebase",
-  //   icon: firebase,
-  // },
+  {
+    name: "Google Firebase",
+    icon: firebase,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -100,10 +103,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "GSAP",
-  //   icon: gsap,
-  // },
+  {
+    name: "GSAP",
+    icon: gsap,
+  },
   {
     name: "Three JS",
     icon: threejs,
@@ -126,7 +129,7 @@ const experiences = [
   {
     title: "Frontend Intern",
     company_name: "Microbridge Technology Solutions",
-    icon: vil,
+    icon: mbridge,
     iconBg: "#383E56",
     date: "July 2021 - October 2021",
     points: [
@@ -140,7 +143,7 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "Atlas Dao",
-    icon: tesla,
+    icon: atlasdao,
     iconBg: "#E6DEDD",
     date: "July 2024 - Present",
     points: [
@@ -154,29 +157,28 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: solgrain,
+    company_name: "Solgrain Limited",
+    icon: solgrainn,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2025 - August 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Next.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "JobListings",
-    icon: meta,
+    title: "Front stack Developer",
+    company_name: "Vin Tech Energies",
+    icon: vil,
     iconBg: "#E6DEDD",
-    date: "February 2024 - March 2024",
+    date: "June 2025 - August 2025",
     points: [
       "Developing and maintaining web applications using Next.js, and TypeScript.",
       "Developed a user-friendly, accessible, responsive and cross-browser compatible interface.",
-      "Implemented simple and interactive animations to the website utilizing Tailwind CSS.",
+      "Implemented simple and interactive animations to the website utilizing Tailwind CSS and GSAP.",
       "Worked closely with the founder to ensure all functionalities and requirements were met.",
-      "Used google firebase to create a seamless backend and store database in real time.",
       "Tested, identified and debugged issues with the website.",
     ],
   },

@@ -26,6 +26,9 @@ import threejs from "./tech/threejs.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import solgrain from "./company/solgrain.png";
+import atlasdao from "./company/atlasdao.png"
+import mbridge from "./company/mbridge.png"
+import solgrainn from "./company/solgrainn.png"
 import vil from "./company/vil.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -66,6 +69,9 @@ export {
   threejs,
   meta,
   shopify,
+  atlasdao,
+  mbridge,
+  solgrainn,
   vil,
   solgrainltd,
   // microbridgelogo,
